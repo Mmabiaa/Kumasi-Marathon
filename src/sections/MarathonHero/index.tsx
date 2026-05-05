@@ -2,13 +2,12 @@ import { HeroContent } from "./components/HeroContent";
 
 export const MarathonHero = () => {
   return (
-    <section className="box-border caret-transparent outline-[3px] overflow-hidden">
+    <section className="box-border outline-[3px] overflow-hidden">
 
       {/* ── MOBILE layout ── */}
       <div className="md:hidden px-4 pt-10 pb-0">
-        {/* Text block */}
         <div className="mb-8">
-          <h1 className="text-[52px] leading-[54px] font-bold uppercase font-obviously_narrow text-emerald-900 mb-4 text-left before:table before:mb-[-12px] after:table after:mt-[-3px]">
+          <h1 className="text-[52px] leading-[54px] font-bold uppercase font-obviously_narrow text-emerald-900 mb-4 text-left">
             Kumasi City Marathon 2026
           </h1>
           <p className="text-base leading-[1.6] font-founders_grotesk text-emerald-900 text-left mb-6 font-normal">
@@ -31,30 +30,23 @@ export const MarathonHero = () => {
           </div>
         </div>
 
-        {/* Images row — below text, side by side, slightly cut off at edges */}
-        <div className="relative flex justify-between items-end h-[280px] -mx-4">
-          {/* Left image */}
-          <div className="relative w-[48%] h-full flex-shrink-0">
-            <div className="relative h-full bg-emerald-900 rounded-[16px] overflow-hidden border-emerald-900 border-2 border-solid -ml-2">
+        {/* Images row below text */}
+        <div className="relative flex justify-between h-[300px] gap-x-3 mt-4">
+
+          {/* Left image — portrait, shorter, anchored top */}
+          <div className="relative w-[44%] flex-shrink-0 self-start" style={{ height: '58%' }}>
+            <div className="h-full bg-emerald-900 rounded-[16px] overflow-hidden border-emerald-900 border-2 border-solid">
               <img
                 src="https://c.animaapp.com/mosxds1qPf1ueg/assets/home-hero-left.jpg"
                 alt=""
                 className="h-full w-full object-cover object-top"
               />
             </div>
-            {/* Tennis ball */}
-            <div className="absolute w-[40px] h-[40px] bottom-6 right-0 translate-x-1/2 z-20">
-              <img
-                src="https://c.animaapp.com/mosxds1qPf1ueg/assets/icon-4.svg"
-                alt=""
-                className="h-full w-full"
-              />
-            </div>
           </div>
 
-          {/* Right image */}
-          <div className="relative w-[48%] h-[85%] flex-shrink-0 self-end">
-            <div className="relative h-full bg-emerald-900 rounded-[16px] overflow-hidden border-emerald-900 border-2 border-solid -mr-2">
+          {/* Right image — portrait, taller, starts lower, anchored bottom */}
+          <div className="relative w-[44%] flex-shrink-0 self-end" style={{ height: '88%' }}>
+            <div className="h-full bg-emerald-900 rounded-[20px] overflow-hidden border-emerald-900 border-2 border-solid">
               <img
                 src="https://c.animaapp.com/mosxds1qPf1ueg/assets/home-hero-right.jpg"
                 alt=""
@@ -62,7 +54,7 @@ export const MarathonHero = () => {
               />
             </div>
             {/* Tennis ball */}
-            <div className="absolute w-[40px] h-[40px] top-4 right-4 z-20">
+            <div className="absolute w-[34px] h-[34px] top-[38%] -right-4 z-20">
               <img
                 src="https://c.animaapp.com/mosxds1qPf1ueg/assets/icon-5.svg"
                 alt=""
@@ -70,52 +62,60 @@ export const MarathonHero = () => {
               />
             </div>
           </div>
+
         </div>
       </div>
 
-      {/* ── DESKTOP layout (unchanged) ── */}
+      {/* ── DESKTOP layout ── */}
       <div className="hidden md:block px-12 py-16">
-        <div className="relative max-w-[1584px] w-full mx-auto min-h-[700px]">
+        <div className="relative max-w-[1584px] w-full mx-auto">
 
-          {/* Left image — top-left */}
-          <div className="absolute top-0 left-0 w-[220px] z-10">
-            <div className="relative aspect-[3/4] bg-emerald-900 rounded-[20px] overflow-hidden border-emerald-900 border-2 border-solid">
-              <img
-                src="https://c.animaapp.com/mosxds1qPf1ueg/assets/home-hero-left.jpg"
-                alt=""
-                className="h-full w-full object-cover"
-              />
-            </div>
-            <div className="absolute w-[52px] h-[52px] -bottom-6 -right-6 z-20">
-              <img
-                src="https://c.animaapp.com/mosxds1qPf1ueg/assets/icon-4.svg"
-                alt=""
-                className="h-full w-full"
-              />
-            </div>
-          </div>
+          {/* Grid: 12 cols, content in middle, images pinned left and right */}
+          <div className="grid grid-cols-12 gap-x-5 items-start">
 
-          {/* Right image — bottom-right */}
-          <div className="absolute bottom-0 right-0 w-[220px] z-10">
-            <div className="relative aspect-[3/4] bg-emerald-900 rounded-[20px] overflow-hidden border-emerald-900 border-2 border-solid">
-              <img
-                src="https://c.animaapp.com/mosxds1qPf1ueg/assets/home-hero-right.jpg"
-                alt=""
-                className="h-full w-full object-cover"
-              />
+            {/* Left image — col 1–2, nudged upward */}
+            <div className="col-start-1 col-span-2 relative -mt-12">
+              <div className="relative aspect-[3/4] bg-emerald-900 rounded-[20px] overflow-hidden border-emerald-900 border-2 border-solid w-full">
+                <img
+                  src="https://c.animaapp.com/mosxds1qPf1ueg/assets/home-hero-left.jpg"
+                  alt=""
+                  className="absolute inset-0 h-full w-full object-cover"
+                />
+              </div>
+              {/* Tennis ball */}
+              <div className="absolute w-[44px] h-[44px] bottom-24 -right-6 z-20">
+                <img
+                  src="https://c.animaapp.com/mosxds1qPf1ueg/assets/icon-4.svg"
+                  alt=""
+                  className="h-full w-full"
+                />
+              </div>
             </div>
-            <div className="absolute w-[52px] h-[52px] -top-6 -left-6 z-20">
-              <img
-                src="https://c.animaapp.com/mosxds1qPf1ueg/assets/icon-5.svg"
-                alt=""
-                className="h-full w-full"
-              />
-            </div>
-          </div>
 
-          {/* Centered content */}
-          <div className="flex items-center justify-center w-full min-h-[700px] px-[280px]">
-            <HeroContent />
+            {/* Center content — col 3–10 */}
+            <div className="col-start-3 col-span-8 flex items-center justify-center py-8">
+              <HeroContent />
+            </div>
+
+            {/* Right image — col 11–12, bottom aligned */}
+            <div className="col-start-11 col-span-2 relative self-end pb-0">
+              <div className="relative aspect-[3/4] bg-emerald-900 rounded-[20px] overflow-hidden border-emerald-900 border-2 border-solid w-full">
+                <img
+                  src="https://c.animaapp.com/mosxds1qPf1ueg/assets/home-hero-right.jpg"
+                  alt=""
+                  className="absolute inset-0 h-full w-full object-cover"
+                />
+              </div>
+              {/* Tennis ball */}
+              <div className="absolute w-[44px] h-[44px] top-8 -right-5 z-20">
+                <img
+                  src="https://c.animaapp.com/mosxds1qPf1ueg/assets/icon-5.svg"
+                  alt=""
+                  className="h-full w-full"
+                />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
