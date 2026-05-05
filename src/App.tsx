@@ -2,10 +2,10 @@ import { MarathonNav } from "@/sections/MarathonNav";
 import { MarathonHero } from "@/sections/MarathonHero";
 import { MarathonAbout } from "@/sections/MarathonAbout";
 import { MarathonCategories } from "@/sections/MarathonCategories";
-import { MarathonRoute } from "@/sections/MarathonRoute";
+import { MarathonRoute } from "@/sections/MarathonRoutes";
 import { MarathonSchedule } from "@/sections/MarathonSchedule";
 import { MarathonRegister } from "@/sections/MarathonRegister";
-import { MarathonSponsors } from "@/sections/MarathonSponsors";
+import { MarathonSponsors } from "@/sections/MarathonSponsor";
 import { MarathonContact } from "@/sections/MarathonContact";
 import { MarathonFooter } from "@/sections/MarathonFooter";
 
