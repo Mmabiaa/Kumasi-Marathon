@@ -46,7 +46,7 @@ export const MarathonHero = () => {
           <div className="relative w-[44%] flex-shrink-0 self-end" style={{ height: '88%' }}>
             <div className="h-full bg-brand-blue rounded-[20px] overflow-hidden border-brand-black border-2 border-solid">
               <img
-                src="https://c.animaapp.com/mosxds1qPf1ueg/assets/home-hero-right.jpg"
+                src="https://i.pinimg.com/1200x/99/97/cf/9997cfdd11c5f80a5547161bb67e2283.jpg"
                 alt=""
                 className="h-full w-full object-cover object-top"
               />
