@@ -1,15 +1,15 @@
 export const MarathonFooter = () => {
   return (
-    <footer className="bg-emerald-900 border-t-2 border-emerald-800 px-4 py-8 md:px-12">
+    <footer className="bg-brand-black border-t-2 border-brand-blue px-4 py-8 md:px-12">
       <div className="max-w-[1584px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-3">
-          <div className="w-8 h-8 rounded-full bg-yellow-400 border-2 border-emerald-900 flex items-center justify-center">
+          <div className="w-8 h-8 rounded-full bg-brand-blue border-2 border-brand-white flex items-center justify-center">
             <svg
               width="14"
               height="14"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="#0c5235"
+              stroke="#FFFFFF"
               strokeWidth="3"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -17,7 +17,7 @@ export const MarathonFooter = () => {
               <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
             </svg>
           </div>
-          <span className="font-obviously_narrow font-bold uppercase text-orange-50 tracking-[0.4px] text-base">
+          <span className="font-obviously_narrow font-bold uppercase text-brand-white tracking-[0.4px] text-base">
             Kumasi City Marathon 2026
           </span>
         </div>
@@ -27,14 +27,14 @@ export const MarathonFooter = () => {
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
-                className="font-founders_grotesk text-emerald-300 text-sm hover:text-yellow-400 transition-colors"
+                className="font-founders_grotesk text-brand-light text-sm hover:text-brand-white transition-colors"
               >
                 {item}
               </a>
             ),
           )}
         </nav>
-        <p className="font-founders_grotesk text-emerald-500 text-sm">
+        <p className="font-founders_grotesk text-brand-light/80 text-sm">
           &copy; Kumasi City Marathon 2026. All rights reserved.
         </p>
       </div>

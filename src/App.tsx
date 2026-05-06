@@ -11,7 +11,7 @@ import { MarathonFooter } from "@/sections/MarathonFooter";
 
 export const App = () => {
   return (
-    <div className="text-emerald-900 font-founders_grotesk bg-orange-50">
+    <div className="text-brand-black font-founders_grotesk bg-brand-light">
       <MarathonNav />
       <main>
         <MarathonHero />

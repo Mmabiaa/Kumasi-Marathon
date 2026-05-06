@@ -12,17 +12,16 @@ export const MarathonNav = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-orange-50 border-b-2 border-emerald-900">
+    <header className="sticky top-0 z-50 bg-brand-white border-b-2 border-brand-black">
       <nav className="relative flex items-center justify-between h-[80px] px-4 md:px-12 max-w-[1584px] mx-auto w-full">
-        {/* Logo */}
         <a href="#" className="flex items-center gap-3 shrink-0">
-          <div className="w-10 h-10 rounded-full bg-emerald-900 border-2 border-emerald-900 flex items-center justify-center">
+          <div className="w-10 h-10 rounded-full bg-brand-blue border-2 border-brand-black flex items-center justify-center">
             <svg
               width="18"
               height="18"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="#fdf2e3"
+              stroke="#FFFFFF"
               strokeWidth="2.5"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -30,20 +29,19 @@ export const MarathonNav = () => {
               <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
             </svg>
           </div>
-          <span className="font-obviously_narrow font-bold uppercase text-emerald-900 tracking-[0.3px] text-[18px] leading-tight">
+          <span className="font-obviously_narrow font-bold uppercase text-brand-black tracking-[0.3px] text-[18px] leading-tight">
             Kumasi City
             <br />
             Marathon 2026
           </span>
         </a>
 
-        {/* Desktop nav links */}
         <ul className="hidden md:flex items-center gap-6">
           {links.map(({ label, href }) => (
             <li key={label}>
               <a
                 href={href}
-                className="font-obviously_narrow font-semibold uppercase text-emerald-900 text-base tracking-[0.3px] hover:text-emerald-600 transition-colors"
+                className="font-obviously_narrow font-semibold uppercase text-brand-black text-base tracking-[0.3px] hover:text-brand-blue transition-colors"
               >
                 {label}
               </a>
@@ -51,19 +49,17 @@ export const MarathonNav = () => {
           ))}
         </ul>
 
-        {/* Desktop CTA */}
         <a
           href="#register"
-          className="hidden md:inline-flex relative font-semibold items-center bg-yellow-400 shadow-[rgb(12,82,53)_4px_6px_0px_0px] px-5 h-10 rounded-full border-2 border-emerald-900 text-emerald-900 text-sm uppercase tracking-[0.3px] font-obviously_narrow hover:bg-yellow-300 transition-colors"
+          className="hidden md:inline-flex relative font-semibold items-center bg-brand-blue text-brand-white shadow-[rgb(0,0,0)_4px_6px_0px_0px] px-5 h-10 rounded-full border-2 border-brand-black text-sm uppercase tracking-[0.3px] font-obviously_narrow hover:opacity-90 transition-opacity"
         >
           Register Now
         </a>
 
-        {/* Mobile menu toggle */}
         <button
           type="button"
           onClick={() => setOpen(!open)}
-          className="md:hidden appearance-none flex items-center justify-center bg-yellow-400 shadow-[rgb(12,82,53)_3px_4px_0px_0px] w-10 h-10 rounded-full border-2 border-emerald-900"
+          className="md:hidden appearance-none flex items-center justify-center bg-brand-blue shadow-[rgb(0,0,0)_3px_4px_0px_0px] w-10 h-10 rounded-full border-2 border-brand-black"
           aria-label="Toggle menu"
         >
           {open ? (
@@ -72,7 +68,7 @@ export const MarathonNav = () => {
               height="20"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="#0c5235"
+              stroke="#FFFFFF"
               strokeWidth="2.5"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -86,7 +82,7 @@ export const MarathonNav = () => {
               height="20"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="#0c5235"
+              stroke="#FFFFFF"
               strokeWidth="2.5"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -98,15 +94,14 @@ export const MarathonNav = () => {
           )}
         </button>
 
-        {/* Mobile menu */}
         {open && (
-          <div className="absolute top-[80px] left-0 w-full bg-orange-50 border-b-2 border-emerald-900 px-4 py-6 flex flex-col gap-4">
+          <div className="absolute top-[80px] left-0 w-full bg-brand-white border-b-2 border-brand-black px-4 py-6 flex flex-col gap-4">
             {links.map(({ label, href }) => (
               <a
                 key={label}
                 href={href}
                 onClick={() => setOpen(false)}
-                className="font-obviously_narrow font-bold uppercase text-emerald-900 text-2xl tracking-[0.3px]"
+                className="font-obviously_narrow font-bold uppercase text-brand-black text-2xl tracking-[0.3px]"
               >
                 {label}
               </a>
@@ -114,7 +109,7 @@ export const MarathonNav = () => {
             <a
               href="#register"
               onClick={() => setOpen(false)}
-              className="inline-flex relative font-semibold items-center bg-yellow-400 shadow-[rgb(12,82,53)_4px_6px_0px_0px] px-5 h-12 rounded-full border-2 border-emerald-900 text-emerald-900 text-sm uppercase tracking-[0.3px] font-obviously_narrow w-fit"
+              className="inline-flex relative font-semibold items-center bg-brand-blue text-brand-white shadow-[rgb(0,0,0)_4px_6px_0px_0px] px-5 h-12 rounded-full border-2 border-brand-black text-sm uppercase tracking-[0.3px] font-obviously_narrow w-fit hover:opacity-90 transition-opacity"
             >
               Register Now
             </a>
