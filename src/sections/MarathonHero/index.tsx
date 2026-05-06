@@ -36,7 +36,7 @@ export const MarathonHero = () => {
           <div className="relative w-[44%] flex-shrink-0 self-start" style={{ height: '58%' }}>
             <div className="h-full bg-brand-blue rounded-[16px] overflow-hidden border-brand-black border-2 border-solid">
               <img
-                src="https://c.animaapp.com/mosxds1qPf1ueg/assets/home-hero-left.jpg"
+                src="https://i.pinimg.com/1200x/95/33/97/95339765d3ad2eab848d63ce777ecbcc.jpg"
                 alt=""
                 className="h-full w-full object-cover object-top"
               />
@@ -51,9 +51,6 @@ export const MarathonHero = () => {
                 className="h-full w-full object-cover object-top"
               />
             </div>
-            <div className="absolute w-[34px] h-[34px] top-[38%] -right-4 z-20">
-              <img src="https://c.animaapp.com/mosxds1qPf1ueg/assets/icon-5.svg" alt="" className="h-full w-full" />
-            </div>
           </div>
         </div>
       </div>
@@ -67,13 +64,10 @@ export const MarathonHero = () => {
             <div className="col-start-1 col-span-2 relative -mt-12">
               <div className="relative aspect-[3/4] bg-brand-blue rounded-[20px] overflow-hidden border-brand-black border-2 border-solid w-full">
                 <img
-                  src="https://c.animaapp.com/mosxds1qPf1ueg/assets/home-hero-left.jpg"
+                  src="https://i.pinimg.com/1200x/95/33/97/95339765d3ad2eab848d63ce777ecbcc.jpg"
                   alt=""
                   className="absolute inset-0 h-full w-full object-cover"
                 />
-              </div>
-              <div className="absolute w-[44px] h-[44px] bottom-24 -right-6 z-20">
-                <img src="https://c.animaapp.com/mosxds1qPf1ueg/assets/icon-4.svg" alt="" className="h-full w-full" />
               </div>
             </div>
 
@@ -86,13 +80,10 @@ export const MarathonHero = () => {
             <div className="col-start-11 col-span-2 relative self-end pb-0">
               <div className="relative aspect-[3/4] bg-brand-blue rounded-[20px] overflow-hidden border-brand-black border-2 border-solid w-full">
                 <img
-                  src="https://c.animaapp.com/mosxds1qPf1ueg/assets/home-hero-right.jpg"
+                  src="https://i.pinimg.com/1200x/99/97/cf/9997cfdd11c5f80a5547161bb67e2283.jpg"
                   alt=""
                   className="absolute inset-0 h-full w-full object-cover"
                 />
-              </div>
-              <div className="absolute w-[44px] h-[44px] top-8 -right-5 z-20">
-                <img src="https://c.animaapp.com/mosxds1qPf1ueg/assets/icon-5.svg" alt="" className="h-full w-full" />
               </div>
             </div>
 
