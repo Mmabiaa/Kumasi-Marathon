@@ -21,7 +21,7 @@ export const HeroContent = () => {
             Register Now
           </a>
           <a
-            href="#race-categories"
+            href="#categories"
             className="font-semibold items-center bg-brand-white text-brand-black shadow-[rgb(0,0,0)_6px_8px_0px_0px] flex h-12 justify-center tracking-[0.4px] leading-6 uppercase border-brand-black px-8 rounded-[200px] border-2 border-solid font-obviously_narrow text-base hover:bg-brand-light transition-colors"
           >
             View Race Categories
