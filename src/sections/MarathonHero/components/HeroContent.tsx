@@ -1,14 +1,29 @@
 export const HeroContent = () => {
   return (
     <div className="w-full text-center">
+      <style>{`
+        @keyframes fadeInUp {
+          from {
+            opacity: 0;
+            transform: translateY(24px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        .animate-fade-in-up {
+          animation: fadeInUp 0.7s ease-out both;
+        }
+      `}</style>
+
       <div className="max-w-[820px] mx-auto text-center px-1">
-        {/* Scaled down to match Screenshot (526).jpg proportion */}
         <h1 className="font-display font-bold uppercase text-brand-black tracking-tighter leading-[0.88] mb-6 text-center text-[clamp(3rem,8.5vw,5.2rem)]">
           Kumasi City <br /> Marathon 2026
         </h1>
-        <p className="my-5 text-center text-[18px] md:text-[19px] font-normal leading-[1.5] font-founders_grotesk text-brand-black max-w-[560px] mx-auto">
+        <p className="animate-fade-in-up my-5 text-center text-[18px] md:text-[19px] font-normal leading-[1.5] font-founders_grotesk text-brand-black max-w-[560px] mx-auto">
           Run the Heart of Ashanti. Win Big. The Kumasi City Marathon 2026 is
-          Ghana&apos;s premier road race, bringing together thousands of runners. 
+          Ghana&apos;s premier road race, bringing together thousands of runners.
           Register and stand a chance to WIN a brand-new car in our official raffle!
         </p>
         <div className="flex flex-row flex-wrap items-center justify-center gap-3 md:gap-4 mt-8">
