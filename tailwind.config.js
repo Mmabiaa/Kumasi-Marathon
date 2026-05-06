@@ -53,6 +53,7 @@ module.exports = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
+        display: ["Teko", "ui-sans-serif", "system-ui", "sans-serif"],
         sans: [
           "ui-sans-serif",
           "system-ui",
