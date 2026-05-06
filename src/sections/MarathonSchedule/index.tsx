@@ -18,7 +18,7 @@ export const MarathonSchedule = () => {
     <section
       id="schedule"
       className="bg-brand-blue px-4 py-16 md:px-12 md:py-24 overflow-hidden relative"
-    >
+    ><br />
       <div className="pointer-events-none absolute -bottom-32 -left-32 w-[500px] h-[500px] rounded-full border-[60px] border-brand-black/20 opacity-30" />
 
       <div className="max-w-[1584px] mx-auto relative z-10">
