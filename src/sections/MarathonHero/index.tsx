@@ -8,14 +8,14 @@ export const MarathonHero = () => {
       <div className="md:hidden px-4 pt-6 pb-0">
         <div className="mb-8">
           {/* Scaled down headline */}
-          <h1 className="font-display font-bold uppercase text-brand-black tracking-tighter leading-[0.9] mb-4 text-left text-[clamp(2.6rem,12vw,3.8rem)]">
+          <h1 className="animate-fade-in-up font-display font-bold uppercase text-brand-black tracking-tighter leading-[0.9] mb-4 text-left text-[clamp(2.6rem,12vw,3.8rem)]">
             Kumasi City <br /> Marathon 2026
           </h1>
-          <p className="text-[16px] leading-[1.5] font-founders_grotesk text-brand-black text-left mb-7 font-normal max-w-[280px]">
+          <p className="animate-fade-in-up-delay text-[16px] leading-[1.5] font-founders_grotesk text-brand-black text-left mb-7 font-normal max-w-[280px]">
             Run the Heart of Ashanti. Win Big. — July 25, 2026 | Kumasi, Ghana.
             Register and stand a chance to WIN a brand-new car!
           </p>
-          <div className="flex flex-col items-stretch gap-y-3 max-w-[340px]">
+          <div className="animate-fade-in-up-delay-2 flex flex-col items-stretch gap-y-3 max-w-[340px]">
             <a
               href="#register"
               className="font-display font-bold items-center bg-brand-blue text-brand-white shadow-[rgb(0,0,0)_5px_6px_0px_0px] flex min-h-[52px] justify-center tracking-tight uppercase border-brand-black px-8 rounded-full border-2 border-solid text-lg hover:opacity-90 transition-opacity"
