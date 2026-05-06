@@ -6,6 +6,7 @@ import { MarathonRoute } from "./sections/MarathonRoutes";
 import { MarathonSchedule } from "./sections/MarathonSchedule";
 import { MarathonRegister } from "./sections/MarathonRegister";
 import { MarathonSponsors } from "./sections/MarathonSponsor";
+import { StorySection } from "./sections/MarathonStory";
 import { MarathonContact } from "./sections/MarathonContact";
 import { MarathonFooter } from "./sections/MarathonFooter";
 
@@ -26,6 +27,9 @@ export const App = () => {
         <MarathonRegister />
         <section id="sponsors"><br /><br />
           <MarathonSponsors />
+        </section>
+        <section>
+          <StorySection />
         </section>
         <section id="contact"><br /><br />
           <MarathonContact />
