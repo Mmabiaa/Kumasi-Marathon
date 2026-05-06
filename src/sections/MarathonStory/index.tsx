@@ -6,7 +6,7 @@ export const StorySection = () => {
           {/* Top Badge: Visible on Mobile, absolute on Desktop */}
           <div className="relative mb-10 lg:mb-0 lg:absolute lg:left-4 xl:left-12 lg:top-1/2 lg:-translate-y-1/2 w-[160px] h-[160px] md:w-[180px] md:h-[180px]">
             <img
-              src="https://c.animaapp.com/mosxds1qPf1ueg/assets/ss-est-2012.png"
+              src="https://i.pinimg.com/736x/74/57/35/7457350445dd545acfb45cd683ec34a9.jpg"
               alt="Est Badge"
               className="w-full h-full object-contain rotate-[6deg] lg:rotate-[10deg]"
             />
@@ -32,7 +32,7 @@ export const StorySection = () => {
           {/* Right Icon: Hidden on Mobile, absolute on Desktop */}
           <div className="hidden lg:block absolute lg:right-4 xl:right-12 lg:top-1/2 lg:-translate-y-1/2 w-[220px] h-[180px]">
             <img
-              src="https://c.animaapp.com/mosxds1qPf1ueg/assets/racquets.png"
+              src="https://i.pinimg.com/1200x/89/ae/8d/89ae8db9db5cc0850720ce96ae369af5.jpg"
               alt="Racquets"
               className="w-full h-full object-contain rotate-[-10deg]"
             />
