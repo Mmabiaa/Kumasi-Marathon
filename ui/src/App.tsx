@@ -9,6 +9,8 @@ import { MarathonSponsors } from "./sections/MarathonSponsor";
 import { StorySection } from "./sections/MarathonStory";
 import { MarathonContact } from "./sections/MarathonContact";
 import { MarathonFooter } from "./sections/MarathonFooter";
+import { FeatureSection } from "./sections/MarathonFeature";
+
 
 export const App = () => {
   return (
@@ -16,6 +18,7 @@ export const App = () => {
       <MarathonNav />
       <main>
         <MarathonHero />
+         <FeatureSection />
         <section id="about"><br /><br />
           <MarathonAbout />
         </section>
