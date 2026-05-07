@@ -10,7 +10,7 @@ export const MarathonAbout = () => {
             More Than a Race
           </h2>
           <p className="font-founders_grotesk text-brand-black text-lg leading-relaxed mb-6">
-            The Kumasi City Marathon is more than a race — it is a celebration
+            The Kumasi City Marathon is more than a race,it is a celebration
             of culture, endurance, and community.
           </p>
           <p className="font-founders_grotesk text-brand-black text-lg leading-relaxed mb-8">
