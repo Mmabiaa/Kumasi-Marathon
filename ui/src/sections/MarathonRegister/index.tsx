@@ -21,7 +21,7 @@ export const MarathonRegister = () => {
               <path d="M12 14v8M9 22h6" />
             </svg>
             <span className="font-obviously_narrow font-bold uppercase text-brand-white tracking-[0.4px]">
-              Official Registration — Car Raffle Included
+              Official Registration
             </span>
           </div>
 
@@ -31,7 +31,7 @@ export const MarathonRegister = () => {
             </h2>
             <p className="font-founders_grotesk text-brand-light text-lg leading-relaxed mb-10 max-w-[560px] mx-auto">
               Register to secure your spot in the Kumasi City Marathon 2026 and
-              automatically enter the car raffle. Every runner qualifies — no
+              automatically enter the car raffle. Every runner qualifies,no
               extra steps needed.
             </p>
 
