@@ -13,7 +13,7 @@ export const MarathonContact = () => {
           </h2>
           <p className="font-founders_grotesk text-brand-light text-lg leading-relaxed mb-8">
             Have questions about registration, the race route, or sponsorship
-            opportunities? Reach out — we are here to help.
+            opportunities? Reach out to us and we are here to help.
           </p>
 
           <div className="flex flex-col gap-4">
