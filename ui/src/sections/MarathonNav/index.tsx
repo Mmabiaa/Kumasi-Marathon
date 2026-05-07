@@ -25,7 +25,7 @@ export const MarathonNav = () => {
     <header 
       className={`sticky top-0 z-50 transition-all duration-300 ${
         scrolled 
-          ? "bg-[#0083DB] border-b-2 border-brand-black py-2" 
+          ? "bg-[#FFFFFF] border-b-2 border-brand-black py-2" 
           : "bg-transparent border-b-0 py-4"
       }`}
     >
