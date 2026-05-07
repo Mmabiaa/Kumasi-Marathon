@@ -12,7 +12,7 @@ export const MarathonHero = () => {
             Kumasi City <br /> Marathon 2026
           </h1>
           <p className="animate-fade-in-up-delay text-[16px] leading-[1.5] font-founders_grotesk text-brand-black text-left mb-7 font-normal max-w-[280px]">
-            Run the Heart of Ashanti. Win Big. — July 25, 2026 | Kumasi, Ghana.
+            Run the Heart of Ashanti. Win Big. July 25, 2026 | Kumasi, Ghana.
             Register and stand a chance to WIN a brand-new car!
           </p>
           <div className="animate-fade-in-up-delay-2 flex flex-col items-stretch gap-y-3 max-w-[340px]">
