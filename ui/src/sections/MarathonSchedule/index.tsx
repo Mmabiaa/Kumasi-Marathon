@@ -27,7 +27,7 @@ export const MarathonSchedule = () => {
             Event Schedule
           </span>
           <h2 className="font-obviously_narrow font-bold uppercase text-brand-white text-[clamp(36px,5vw,61px)] leading-none">
-            Race Day — July 25, 2026
+            Race Day: July 25, 2026
           </h2>
         </div>
 
